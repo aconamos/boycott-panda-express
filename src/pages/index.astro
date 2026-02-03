@@ -1,50 +1,165 @@
 ---
-import BaseHead from '../components/BaseHead.astro';
-import Header from '../components/Header.astro';
-import Footer from '../components/Footer.astro';
-import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+import BaseHead from "../components/BaseHead.astro"
+import Header from "../components/Header.astro"
+import Footer from "../components/Footer.astro"
+import { SITE_TITLE, SITE_DESCRIPTION } from "../consts"
 ---
 
 <!doctype html>
 <html lang="en">
-	<head>
-		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
-	</head>
-	<body>
-		<Header />
-		<main>
-			<h1>🧑‍🚀 Hello, Astronaut!</h1>
-			<p>
-				Welcome to the official <a href="https://astro.build/">Astro</a> blog starter template. This
-				template serves as a lightweight, minimally-styled starting point for anyone looking to build
-				a personal website, blog, or portfolio with Astro.
-			</p>
-			<p>
-				This template comes with a few integrations already configured in your
-				<code>astro.config.mjs</code> file. You can customize your setup with
-				<a href="https://astro.build/integrations">Astro Integrations</a> to add tools like Tailwind,
-				React, or Vue to your project.
-			</p>
-			<p>Here are a few ideas on how to get started with the template:</p>
-			<ul>
-				<li>Edit this page in <code>src/pages/index.astro</code></li>
-				<li>Edit the site header items in <code>src/components/Header.astro</code></li>
-				<li>Add your name to the footer in <code>src/components/Footer.astro</code></li>
-				<li>Check out the included blog posts in <code>src/content/blog/</code></li>
-				<li>Customize the blog post page layout in <code>src/layouts/BlogPost.astro</code></li>
-			</ul>
-			<p>
-				Have fun! If you get stuck, remember to <a href="https://docs.astro.build/"
-					>read the docs
-				</a> or <a href="https://astro.build/chat">join us on Discord</a> to ask questions.
-			</p>
-			<p>
-				Looking for a blog template with a bit more personality? Check out <a
-					href="https://github.com/Charca/astro-blog-template"
-					>astro-blog-template
-				</a> by <a href="https://twitter.com/Charca">Maxi Ferreira</a>.
-			</p>
-		</main>
-		<Footer />
-	</body>
+  <head>
+    <BaseHead
+      title={SITE_TITLE}
+      description={SITE_DESCRIPTION}
+    />
+  </head>
+  <body>
+    <Header />
+    <main>
+      <h1>Boycott Panda Express!</h1>
+      <p>
+        Since at least January 1st, 2026, the Panda Express location inside the
+        Student Union Building on the University of Utah campus has discontinued
+        the <b>Sweetfire Chicken Breast</b>.
+      </p>
+      <h2>We're Bringing It Back.</h2>
+      <p>
+        On top of that, they have been gouging prices, skimping on portion
+        sizes, and closing earlier than ever before. <i
+          >Students are getting shortchanged.</i
+        > Gone are the days of picking up a quick plate to get through the night -
+        you now have to deal with the poorest selections they have for more money
+        and less food.
+      </p>
+      <h3>Join the boycott!</h3>
+      <ul>
+        <li>
+          <b>Don't buy Panda Express</b> until they bring back Sweetfire Chicken!
+        </li>
+        <li>Share with your friends!</li>
+      </ul>
+      <h2>What are my alternatives?</h2>
+      <ul id="alternatives">
+        <li>
+          <h3>Kafe' Mamai</h3>
+          <div class="divider"></div>
+          <p>
+            Delicious African-Caribbean fusion cuisine. This small business
+            deploys a food truck during lunch hours, and has an in-person
+            location in downtown Salt Lake, at the Gallivan Plaza.
+          </p>
+          <h4>Recommended Items</h4>
+          <ol>
+            <li>
+              <h5>Jerk Chicken Sandwich</h5>
+              <p>
+                This sandwich consists of a pita bread wrapping delicious
+                jerk-style chicken. It comes with a healthy serving of fries -
+                sweet potato and regular - and a signature sauce. You get better
+                food, more food, and support small business purchasing here.
+              </p>
+            </li>
+          </ol>
+          <p>
+            Parked right outside the Union from 10:15 to about 2:00 each day,
+            right in time for a delicious lunch.
+          </p>
+        </li>
+        <li>
+          <h3>Jeeva's</h3>
+          <div class="divider"></div>
+          <p>
+            Greek food in the Garff Building, close to South Campus. They have a
+            couple of locations - of course, the Garff building, but also the
+            City Creek and Fashion Place mall, among others. A familiar favorite
+            if you frequent those malls!
+          </p>
+          <h4>Recommended Items</h4>
+          <ol>
+            <li>
+              <h5>Lamb Gyro</h5>
+              <p>
+                This Gyro is make with lamb, tomatoes, feta cheese, and their
+                signature Tzatziki sauce. You can get just the sandwich or have
+                your choice of fries, greek salad, or lemon rice with it.
+              </p>
+            </li>
+            <li>
+              <h5>Souvlaki Stick(s)</h5>
+              <p>
+                These kebabs come in singles or doubles, in chicken or beef.
+                Delectably seasoned and comes with a pita bread, greek salad,
+                and lemon rice. Served with a side Tzatziki sauce.
+              </p>
+            </li>
+            <li>
+              <h5>Greek Burger</h5>
+              <p>
+                This classic Greek burger blends a juicy beef patty with their
+                signature Tzatziki sauce. If you can't get enough of the Greek
+                taste, this burger puts a great twist on a classic.
+              </p>
+            </li>
+          </ol>
+          <p>
+            This business is open from 10:00 to 5:00 in the Garff building. Open
+            almost as late as Panda these days, and a much better option.
+          </p>
+        </li>
+        <li>
+          <h3>Starley Commons</h3>
+          <div class="divider"></div>
+          <p>
+            A quaint little Café located in the upper Warnock. Serves hand-made
+            sandwiches, soups, and salads (among other items). Has a panini
+            press, coffee machine, microwave, and anything else you'd need to
+            make your perfect breakfast.
+          </p>
+          <h4>Recommended Items</h4>
+          <ol>
+            <li>
+              <h5>Soup</h5>
+              <p>
+                The variety soups are always a classic warm meal, best for a
+                cold day. They come with a bread roll and crackers, too! The
+                Perfect Chili is a common one to find, but don't hesitate to try
+                out the other soups!
+              </p>
+            </li>
+            <li>
+              <h5>Sandwiches</h5>
+              <p>
+                With a variety of sandwiches, from turkey croissants to pesto
+                provolone to reubens, and a panini press to boot, these never
+                miss. Also, check out the half and half sandwich/soup combo!
+              </p>
+            </li>
+          </ol>
+          <p>
+            This business is open from 9:00 to 2:30 in the Warnock Engineering
+            Building, tucked away in a corner of the Catmull Gallery. A great
+            option for breakfast and lunch, and without the lengthy walk from
+            the engineering side of campus to the Union.
+          </p>
+        </li>
+      </ul>
+    </main>
+    <Footer />
+  </body>
 </html>
+
+<style>
+  #alternatives {
+    list-style: none;
+    padding-left: 0;
+  }
+
+  #alternatives ol {
+    list-style: reset;
+  }
+
+  .divider {
+    width: 100%;
+    border: 1px solid black;
+  }
+</style>
